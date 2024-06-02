@@ -22,17 +22,28 @@ All the operation is done via a LUT based state machine. Modifying that state ma
 keys:
 
 forward     move the robot forward(units 0-99 (robot length))
+
 reverse     move the robot reverse(units 0-99)
+
 left        turn the robot left (units 0-99 (3 degrees))
+
 right       turn the robot right (units 0-99)
+
 pause       delay for (units 0- 99 (1/10 second))
+
 acc         active the robot accesory device (your choice)
+
 party       play a music tune
+
 repeat      repeat the last command (times)
 
+
 clearMem    clear the program memory
+
 delCmd      delete the last command
+
 check       execute the last command entered into program memory
+
 go          run the program
 
 0           valid numbers to enter...        
